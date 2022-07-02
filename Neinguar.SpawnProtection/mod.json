@@ -1,0 +1,28 @@
+{
+"Name": "Neinguar.SpawnProtection,
+"Description":"Get fucked melee users",
+"LoadPriority": 0,
+"RequiredOnClient": false,
+"Version": "1.0.0",
+	
+	"ConVars":[
+        {
+            "Name": "Protect_Time",
+            "DeafaultValue": 1
+        },
+        {
+            "Name": "Health_Of_protection",
+            "DeafaultValue": 20
+        }
+        ],
+    "Scripts":[
+        {
+        "Path": "NeinguarSpawnProtect.nut",
+        "RunOn":"Server && MP",
+        "ServerCallback":{
+            "After": "Neinguar_Spawn_Protect_Init"
+            }
+        }
+    ]
+
+}
