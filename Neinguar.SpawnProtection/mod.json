@@ -1,5 +1,5 @@
 {
-"Name": "Neinguar.SpawnProtection,
+"Name": "Neinguar.SpawnProtection",
 "Description":"Get fucked melee users",
 "LoadPriority": 0,
 "RequiredOnClient": false,
@@ -12,7 +12,7 @@
         },
         {
             "Name": "Health_Of_protection",
-            "DeafaultValue": 20
+            "DeafaultValue": 1000
         }
         ],
     "Scripts":[
