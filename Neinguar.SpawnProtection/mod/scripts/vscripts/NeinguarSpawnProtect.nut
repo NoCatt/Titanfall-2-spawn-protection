@@ -12,7 +12,7 @@ void function OnSpawn(entity player){
     int PrevMaxHealth = player.GetMaxHealth()
     player.SetMaxHealth(health)
     player.SetHealth(player.GetMaxHealth())
-    wait(1)
+    wait(duration)
     player.SetMaxHealth(PrevMaxHealth)
     player.SetHealth(player.GetMaxHealth())
 }
