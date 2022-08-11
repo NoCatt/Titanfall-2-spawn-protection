@@ -18,7 +18,7 @@
     "Scripts":[
         {
         "Path": "NeinguarSpawnProtect.nut",
-        "RunOn":"Server && MP",
+        "RunOn":"SERVER",
         "ServerCallback":{
             "After": "Neinguar_Spawn_Protect_Init"
             }
